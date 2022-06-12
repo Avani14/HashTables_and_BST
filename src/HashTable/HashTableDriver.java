@@ -5,12 +5,13 @@ public class HashTableDriver {
 
         Hashtable<String , Integer> hash = new Hashtable();
 
-        String message = " To be or not to be ";
+        String paragraph = " Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations ";
 
 
-        String[] messageArray = message.toLowerCase().split(" ");
+        String[] paragraphArray = paragraph.toLowerCase().split(" ");
 
-        for(String word: messageArray) {
+        for(String word: paragraphArray) {
 
             Integer value =  hash.get(word);
 
