@@ -9,4 +9,9 @@ public class Node<E> {
         this.left = null;
         this.right = null;
     }
+    @Override
+    public String toString()
+    {
+        return "Key: "+key+" Left: "+left+" Right: "+right;
+    }
 }

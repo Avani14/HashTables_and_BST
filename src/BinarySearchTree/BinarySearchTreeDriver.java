@@ -18,5 +18,6 @@ public class BinarySearchTreeDriver {
         bst.insert(67);
         bst.display();
         System.out.println("Size of bst is: "+bst.size());
+        System.out.println(bst.search(63));
     }
 }
