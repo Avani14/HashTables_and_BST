@@ -22,5 +22,7 @@ public class HashTableDriver {
             hash.add(word , value);
         }
         System.out.println(hash);
+        hash.remove("avoidable");
+        System.out.println(hash);
     }
 }
